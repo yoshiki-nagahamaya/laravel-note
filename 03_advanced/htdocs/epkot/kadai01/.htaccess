@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^app/(.*)$ - [R=404,L]
+    RewriteRule ^README.md$ - [R=404,L]
+</IfModule>

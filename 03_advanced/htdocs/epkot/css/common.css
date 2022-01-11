@@ -1,0 +1,29 @@
+/* 以下のデザインはお好みで変更してもOKです。 */
+header {
+  /* https://developer.mozilla.org/ja/docs/Web/CSS/position */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #0092d4;
+  color: #ffffff;
+}
+
+h1, h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+main > section {
+  margin-bottom: 20px;
+}
+
+main > section > h2 {
+  background-color: #599ea6;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+main > section > div {
+  padding: 10px;
+}
